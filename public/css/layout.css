@@ -348,10 +348,10 @@ ul#nav {
 
     .bars li {
         position: relative;
-        margin-bottom: 60px;
-        background: #333;
-        height: 42px;
-        border-radius: 0px;
+        margin-bottom: 45px;
+        background: #E0E0E0;
+        height: 30px;
+        border-radius: 20px;
     }
 
         .bars li em {
@@ -361,7 +361,7 @@ ul#nav {
             letter-spacing: 2px;
             font-weight: normal;
             position: relative;
-            top: -36px;
+            top: -25px;
         }
 
 .bar-expand {
@@ -372,9 +372,9 @@ ul#nav {
     padding-right: 24px;
     background: #313131;
     display: inline-block;
-    height: 42px;
-    line-height: 42px;
-    border-radius: 0px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
 }
 /*
 .git {
@@ -461,6 +461,29 @@ ul#nav {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }  */
+
+/* ------------------------------------------------------------------ */
+/* e2. Courses Section
+/* ------------------------------------------------------------------ */
+#courses {
+    background: #6E7881;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+    #courses h1 {
+        font: 15px/24px 'opensans-semibold', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 48px;
+        color: #E8E8E8;
+    }
+
+/* Portfolio Content */
+#courses-wrapper .columns {
+    margin-bottom: 36px;
+}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
