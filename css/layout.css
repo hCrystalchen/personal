@@ -172,6 +172,7 @@ ul#back {
 
 ul#back a:hover {
     color: #fe6928;
+    cursor: pointer;
 }
 
 ul#nav {
