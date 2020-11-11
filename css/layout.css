@@ -131,7 +131,7 @@ header {
 
 /* primary navigation
 --------------------------------------------------------------------- */
-#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+#nav-wrap ul, #nav-wrap li, #nav-wrap a, #back-wrap ul, #back-wrap li, #back-wrap a {
     margin: 0;
     padding: 0;
     border: none;
@@ -139,7 +139,7 @@ header {
 }
 
 /* nav-wrap */
-#nav-wrap {
+#nav-wrap, #back-wrap {
     font: 12px 'opensans-bold', sans-serif;
     width: 100%;
     text-transform: uppercase;
@@ -160,6 +160,20 @@ header {
     display: none;
 }
 
+ul#back {
+    min-height: 48px;
+    width: 100px;
+    text-align: center;
+    background-color: #333;
+    margin-top:20px;
+    border-top-right-radius:45px;
+    border-bottom-right-radius:45px;
+}
+
+ul#back a:hover {
+    color: #fe6928;
+}
+
 ul#nav {
     min-height: 48px;
     width: auto;
@@ -167,7 +181,7 @@ ul#nav {
     text-align: center;
 }
 
-    ul#nav li {
+    ul#nav li, ul#back li {
         position: relative;
         list-style: none;
         height: 48px;
@@ -175,7 +189,7 @@ ul#nav {
     }
 
         /* Links */
-        ul#nav li a {
+        ul#nav li a, ul#back li a {
             /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
             display: inline-block;
             padding: 8px 13px;
@@ -291,7 +305,7 @@ ul#nav {
     }
 
         #resume h1 span {
-            border-bottom: 3px solid #0762f9;
+            border-bottom: 3px solid #5ca08e;
             padding-bottom: 6px;
         }
 
@@ -330,6 +344,9 @@ ul#nav {
     margin-top: 6px;
 }
 
+.work a h3:hover {
+    color: #5ca08e;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
