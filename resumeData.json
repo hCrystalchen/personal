@@ -1,0 +1,253 @@
+{
+  "main": {
+    "name": "Crystal Chen",
+    "description": "I am a full stack developer who studied Computer Science with a focus on software principles and design at Brown University.",
+    "github": "https://github.com/hCrystalChen",
+    "linkedin": "https://github.com/nordicgiant2/react-nice-resume",
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1KbgCZKqWNqmDUSmqTn0Zfsm8VCnlvxfP/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/tbaker_x",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I have experience with both front-end and back-end languages, as well as version control using Git.",
+    "education": [
+      {
+        "school": "Brown University",
+        "degree": "B.Sc. in Computer Science",
+        "graduated": "May 2020",
+        "description": "Originally an Applied Mathematics major, I discovered my passion for software engineering during an intro level computer science course and have since explored various areas in the field through courses, projects, and research experiences."
+      }
+    ],
+    "work": [
+      {
+        "company": "Dash | Brown University Graphics Lab",
+        "title": "Full Stack Research Intern",
+        "years": "June 2017 - September 2018",
+        "description": "Collaborated with over 10 developers to explore ",
+        "website": "https://cs.brown.edu/research/ptc/#/project/dash"
+      },
+      {
+        "company": "NuSys | Brown University Graphics Lab",
+        "title": "Front End Research Intern",
+        "years": "February 2017 - June 2017",
+        "description": "Worked with a team of undergraduate and graduate developers on developing a collaborative tool for powerful multimedia annotation on an unbounded workspace in C# and XAML.",
+        "website": "https://cs.brown.edu/research/ptc/#/project/nusys"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "80%",
+        "type": "backend"
+      },
+      {
+        "name": "C#",
+        "level": "70%",
+        "type": "backend"
+      },
+      {
+        "name": "Python",
+        "level": "60%",
+        "type": "backend"
+      },
+      {
+        "name": "C++",
+        "level": "55%",
+        "type": "backend"
+      },
+      {
+        "name": "JavaScript/React",
+        "level": "60%",
+        "type": "frontend"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": "60%",
+        "type": "frontend"
+      },
+      {
+        "name": "Git",
+        "level": "70%",
+        "type": "other"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "NuSys",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "blank.jpg",
+        "url": "https://cs.brown.edu/research/ptc/#/project/nusys"
+      },
+      {
+        "title": "Dash",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "blank.jpg",
+        "url": "https://cs.brown.edu/research/ptc/#/project/dash"
+      }
+    ]
+  },
+  "courses": {
+    "projects": [
+      {
+        "title": "CS0150 Intro to Object-Oriented Programming",
+        "category": "Created interactive programs with graphical user interfaces using Java and the JavaFX graphics library.",
+        "image": "blank.jpg",
+        "work": [
+          {
+            "title": "Tetris",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Doodle Jump",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Pacman",
+            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
+            "image": "blank.jpg"
+          }
+        ]
+      },
+      {
+        "title": "CS0160 Intro to Alogrithms and Data Structures",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "blank.jpg",
+        "work": [
+          {
+            "title": "Seamcarve",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Binary Tree",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Pacman",
+            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
+            "image": "blank.jpg"
+          }
+        ]
+      },
+      {
+        "title": "CS0330 Intro to Computer Systems",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "blank.jpg",
+        "work": [
+          {
+            "title": "C Shell",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Malloc",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Pacman",
+            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
+            "image": "blank.jpg"
+          }
+        ]
+      },
+      {
+        "title": "CS1320 Creating Modern Web and Mobile Applications",
+        "category": "Took a holistic look at the process of developing web and mobile applications and ",
+        "image": "blank.jpg",
+        "work": [
+          {
+            "title": "Tetris",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Chatroom",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Health Survey App",
+            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
+            "image": "blank.jpg"
+          }
+        ]
+      },
+      {
+        "title": "CS1230 Intro to Computer Graphics",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "blank.jpg",
+        "work": [
+          {
+            "title": "Tetris",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Doodle Jump",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "3D Terrains in VR",
+            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
+            "image": "blank.jpg"
+          }
+        ]
+      },
+      {
+        "title": "CS1300 User Interfaces and User Experiences",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "blank.jpg",
+        "work": [
+          {
+            "title": "Tetris",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Doodle Jump",
+            "description": "",
+            "image": "blank.jpg"
+          },
+          {
+            "title": "Pacman",
+            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
+            "image": "blank.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}
