@@ -119,7 +119,7 @@
       {
         "title": "CS0150 Intro to Object-Oriented Programming",
         "category": "Learned how to write modular and reusable code and applied those knowledge to create interactive programs with graphical user interfaces using Java and the JavaFX graphics library.",
-        "image": "intro.jpg",
+        "image": "intro_filtered.jpg",
         "work": [
           {
             "title": "Tetris",
@@ -141,7 +141,7 @@
       {
         "title": "CS0160 Intro to Alogrithms and Data Structures",
         "category": "Learned, analyzed and applied algorithms and data structures for sorting, searching, graph problems and geometric problems to develope problem solving skills that are relevant to most areas of Computer Science.",
-        "image": "data.png",
+        "image": "data_filtered.png",
         "work": [
           {
             "title": "Seamcarve",
@@ -163,7 +163,7 @@
       {
         "title": "CS0330 Intro to Computer Systems",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "systems.png",
+        "image": "systems_filtered.png",
         "work": [
           {
             "title": "C Shell",
@@ -185,7 +185,7 @@
       {
         "title": "CS1320 Creating Modern Web and Mobile Applications",
         "category": "Took a holistic look at the process of developing web and mobile applications and ",
-        "image": "web.jpg",
+        "image": "web_filtered.jpg",
         "work": [
           {
             "title": "Tetris",
@@ -207,29 +207,34 @@
       {
         "title": "CS1230 Intro to Computer Graphics",
         "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "graphics.png",
+        "image": "graphics_filtered.png",
         "work": [
           {
-            "title": "Tetris",
+            "title": "Filters",
             "description": "",
-            "image": "blank.jpg"
+            "image": "filters.jpg"
           },
           {
-            "title": "Doodle Jump",
+            "title": "Shapes",
+            "description": "",
+            "image": "shapes.jpg"
+          },
+          {
+            "title": "Ray Tracer",
             "description": "",
             "image": "blank.jpg"
           },
           {
             "title": "3D Terrains in VR",
-            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
-            "image": "blank.jpg"
+            "description": "As our final project for the class, my teammates and I created a realistic 3D landscape with procedurally-generated terrains, waters, and L-systems trees viewable throw a VR headset. Texture mapping and a Skybox were also added to the implementation to increase user immersion. (Note: Image shown above is the prototype of the scene, rendering the actual scene in VR requries hardware that I do not currently own.)",
+            "image": "terrains.jpg"
           }
         ]
       },
       {
         "title": "CS1300 User Interfaces and User Experiences",
         "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "search.jpg",
+        "image": "search_filtered.jpg",
         "work": [
           {
             "title": "Tetris",
