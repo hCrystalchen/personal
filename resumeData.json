@@ -118,52 +118,52 @@
     "projects": [
       {
         "title": "CS0150 Intro to Object-Oriented Programming",
-        "category": "Created interactive programs with graphical user interfaces using Java and the JavaFX graphics library.",
-        "image": "blank.jpg",
+        "category": "Learned how to write modular and reusable code and applied those knowledge to create interactive programs with graphical user interfaces using Java and the JavaFX graphics library.",
+        "image": "intro.jpg",
         "work": [
           {
             "title": "Tetris",
             "description": "",
-            "image": "blank.jpg"
+            "image": "tetris.jpg"
           },
           {
             "title": "Doodle Jump",
             "description": "",
-            "image": "blank.jpg"
+            "image": "doodle.jpg"
           },
           {
             "title": "Pacman",
             "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
-            "image": "blank.jpg"
+            "image": "pacman.jpg"
           }
         ]
       },
       {
         "title": "CS0160 Intro to Alogrithms and Data Structures",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "blank.jpg",
+        "category": "Learned, analyzed and applied algorithms and data structures for sorting, searching, graph problems and geometric problems to develope problem solving skills that are relevant to most areas of Computer Science.",
+        "image": "data.png",
         "work": [
           {
             "title": "Seamcarve",
             "description": "",
-            "image": "blank.jpg"
+            "image": "seamcarve.png"
           },
           {
-            "title": "Binary Tree",
+            "title": "Heap",
             "description": "",
-            "image": "blank.jpg"
+            "image": "heap.png"
           },
           {
-            "title": "Pacman",
+            "title": "Graph",
             "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
-            "image": "blank.jpg"
+            "image": "graph.png"
           }
         ]
       },
       {
         "title": "CS0330 Intro to Computer Systems",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "blank.jpg",
+        "image": "systems.png",
         "work": [
           {
             "title": "C Shell",
@@ -185,7 +185,7 @@
       {
         "title": "CS1320 Creating Modern Web and Mobile Applications",
         "category": "Took a holistic look at the process of developing web and mobile applications and ",
-        "image": "blank.jpg",
+        "image": "web.jpg",
         "work": [
           {
             "title": "Tetris",
@@ -207,7 +207,7 @@
       {
         "title": "CS1230 Intro to Computer Graphics",
         "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "blank.jpg",
+        "image": "graphics.png",
         "work": [
           {
             "title": "Tetris",
@@ -229,7 +229,7 @@
       {
         "title": "CS1300 User Interfaces and User Experiences",
         "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "blank.jpg",
+        "image": "search.jpg",
         "work": [
           {
             "title": "Tetris",
