@@ -1281,11 +1281,10 @@ footer .social-links {
 /* header links*/
 
 .social a {
-    display: block;
-    margin-left: 30%;
-    margin-right: 30%;
-    height: 45px;
-    line-height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 135px;
 }
 
 .social .btn {
