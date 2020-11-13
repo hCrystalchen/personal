@@ -3,36 +3,8 @@
     "name": "Crystal Chen",
     "description": "I am a full stack developer who studied Computer Science with a focus on software principles and design at Brown University.",
     "github": "https://github.com/hCrystalChen",
-    "linkedin": "https://github.com/nordicgiant2/react-nice-resume",
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1KbgCZKqWNqmDUSmqTn0Zfsm8VCnlvxfP/view?usp=sharing",
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
-        "className": "fa fa-github"
-      }
-    ]
+    "linkedin": "https://www.linkedin.com/in/crystal-chen-121689162",
+    "resumedownload": "https://drive.google.com/file/d/1KbgCZKqWNqmDUSmqTn0Zfsm8VCnlvxfP/view?usp=sharing"
   },
   "resume": {
     "skillmessage": "I have experience with both front-end and back-end languages, as well as version control using Git.",
@@ -98,27 +70,11 @@
       }
     ]
   },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "NuSys",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "blank.jpg",
-        "url": "https://cs.brown.edu/research/ptc/#/project/nusys"
-      },
-      {
-        "title": "Dash",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "blank.jpg",
-        "url": "https://cs.brown.edu/research/ptc/#/project/dash"
-      }
-    ]
-  },
   "courses": {
     "projects": [
       {
         "title": "CS0150 Intro to Object-Oriented Programming",
-        "category": "Learned how to write modular and reusable code and applied those knowledge to create interactive programs with graphical user interfaces using Java and the JavaFX graphics library.",
+        "category": "Learned how to write modular and reusable code and applied knowledge of object-oriented design to create interactive programs with graphical user interfaces using Java and the JavaFX graphics library.",
         "image": "intro_filtered.jpg",
         "work": [
           {
@@ -133,7 +89,7 @@
           },
           {
             "title": "Pacman",
-            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
+            "description": "Implemented with BFS.",
             "image": "pacman.jpg"
           }
         ]
@@ -162,78 +118,83 @@
       },
       {
         "title": "CS0330 Intro to Computer Systems",
-        "category": "Website I built for a restaurant I like in Thailand",
+        "category": "Covered the organization of computer systems (in terms of storage units, caches, processors, and I/O controllers) and was introduced to assembly-language and C language programming. Course work included system-level programming on Linux systems, as well as multithreaded programming with POSIX threads in C.",
         "image": "systems_filtered.png",
         "work": [
           {
             "title": "C Shell",
             "description": "",
-            "image": "blank.jpg"
+            "image": null
           },
           {
             "title": "Malloc",
             "description": "",
-            "image": "blank.jpg"
+            "image": null
           },
           {
-            "title": "Pacman",
-            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
-            "image": "blank.jpg"
+            "title": "Buffer",
+            "description": "Developed a detailed understanding of x86-64 calling conventions and stack organization by applying a series of buffer overflow attacks on an executable file.",
+            "image": null
+          },
+          {
+            "title": "Database",
+            "description": "Created a server to manage database ",
+            "image": null
           }
         ]
       },
       {
         "title": "CS1320 Creating Modern Web and Mobile Applications",
-        "category": "Took a holistic look at the process of developing web and mobile applications and ",
+        "category": "Took a holistic look at the process of developing web and mobile applications to gain experience of the most-used technologies and development practices.",
         "image": "web_filtered.jpg",
         "work": [
           {
-            "title": "Tetris",
-            "description": "",
-            "image": "blank.jpg"
+            "title": "Website Redesign",
+            "description": "Created a",
+            "image": "web_one.png"
           },
           {
             "title": "Chatroom",
             "description": "",
-            "image": "blank.jpg"
+            "image": "realtime.jpg"
           },
           {
             "title": "Health Survey App",
-            "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
-            "image": "blank.jpg"
+            "description": "Created a",
+            "image": "health_survey_app.jpg"
           }
         ]
       },
       {
         "title": "CS1230 Intro to Computer Graphics",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "category": "Explored the fundamental concepts in 2D and 3D computer graphics in-depth. Topics covered included 3D modeling, viewing and rendering, geometric transformations and 2D raster graphics techniques, such as scan conversion, simple image processing and user interface design. OpenGL, C++ and shader programming on the GPU were used throughout the course.",
         "image": "graphics_filtered.png",
         "work": [
           {
             "title": "Filters",
-            "description": "",
+            "description": "Implemented various image manipulation operations such as edge-detection, blurring, image scaling, and sharpening, which served as an introduction to image processing and anti-aliasing.",
             "image": "filters.jpg"
           },
           {
             "title": "Shapes",
-            "description": "",
+            "description": "Implemented object tessellations by using triangles to construct 3D objects such as cubes, cones, spheres, and cylinders. ",
             "image": "shapes.jpg"
           },
           {
             "title": "Ray Tracer",
-            "description": "",
-            "image": "blank.jpg"
+            "description": "Implemented a ray tracer to render realistic pictures of geometric objects by using available information about lighting and optical effects like light reflection and refraction. Implementation supports reflections, texture mapping, shadows, specular highlights, directional lighting, and light fall-off (attenuation).",
+            "image": "ray.jpg"
           },
           {
             "title": "3D Terrains in VR",
-            "description": "As our final project for the class, my teammates and I created a realistic 3D landscape with procedurally-generated terrains, waters, and L-systems trees viewable throw a VR headset. Texture mapping and a Skybox were also added to the implementation to increase user immersion. (Note: Image shown above is the prototype of the scene, rendering the actual scene in VR requries hardware that I do not currently own.)",
+            "description": "As our final project for the class, my teammates and I created a realistic 3D landscape with procedurally-generated terrains, waters, and L-systems trees viewable throw a VR headset. Texture mapping and a Skybox were also added to the implementation to increase user immersion. (Note: Image shown below is a prototype of the scene, rendering the actual scene in VR requries hardware that I do not currently own.)",
             "image": "terrains.jpg"
           }
         ]
       },
       {
         "title": "CS1300 User Interfaces and User Experiences",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "category": "Learned when to use different interfaces, how to model and represent user interaction, how to elicit requirements and feedback from users, as well as the principles of user experience design, methods for designing and prototyping interfaces, and user interface evaluation.",
         "image": "search_filtered.jpg",
         "work": [
           {
@@ -247,9 +208,9 @@
             "image": "blank.jpg"
           },
           {
-            "title": "Pacman",
+            "title": "Iterative Redesign",
             "description": "Created a Pokemon-themed Pacman game by implementing BFS.",
-            "image": "blank.jpg"
+            "image": "iterative_redesign.png"
           }
         ]
       }

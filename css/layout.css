@@ -285,7 +285,7 @@ ul#nav {
 /* ------------------------------------------------------------------ */
 
 #resume {
-    background: #fff;
+    background: #eaeded;
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
@@ -348,6 +348,11 @@ ul#nav {
 .work a h3:hover {
     color: #5ca08e;
 }
+
+.work a h3 {
+    color: #006a6e;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -484,9 +489,9 @@ ul#nav {
 /* e2. Courses Section
 /* ------------------------------------------------------------------ */
 #courses {
-    background: #6E7881;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    background: #378974;
+    padding-top: 36px;
+    padding-bottom: 30px;
 }
 
     #courses h1 {
@@ -508,7 +513,7 @@ ul#nav {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #ebeeee;
+    background: #eaeded;
     padding-top: 90px;
     padding-bottom: 60px;
 }
@@ -519,6 +524,8 @@ ul#nav {
         letter-spacing: 1px;
         text-align: center;
         margin-bottom: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
         color: #006a6e;
     }
 
@@ -527,6 +534,8 @@ ul#nav {
         letter-spacing: 1px;
         text-align: center;
         margin-bottom: 48px;
+        margin-left: 10%;
+        margin-right: 10%;
         color: #99b7ac;
     }
 
@@ -541,7 +550,7 @@ ul#nav {
 
 
 .portfolio-item .item-wrap {
-    background: #EBEEEE;
+    background: #eaeded;
     overflow: hidden;
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
@@ -614,16 +623,24 @@ ul#nav {
         margin-bottom: 0;
     }
 
+
 .portfolio-item-meta2 h5 {
     font: 30px/36px 'opensans-bold', sans-serif;
-    color: #5ca08e;
-    margin-bottom: 6%;
+    color: #51887a;
+    margin-top: 8%;
+    margin-bottom: 2%;
 }
 
+/*portfolio separater*/
 .item-details {
-    margin-bottom: 48px;
-    padding-bottom: 24px;
-    border-bottom: 3px solid #dfdfdf;
+    margin-bottom: 12px;
+    padding-bottom: 16%;
+    border-bottom: 3px solid #e0e4e4;
+}
+
+.portfolio-description {
+    font: 16px/20px;
+    padding-bottom: 3%;
 }
 
 /* on hover */
@@ -697,12 +714,6 @@ ul#nav {
     .popup-modal a.popup-modal-dismiss {
         margin-left: 24px;
     }
-
-.portfolio-description {
-    font: 16px/20px;
-    padding-top: 20px;
-    padding-bottom: 8%;
-}
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -1263,9 +1274,12 @@ footer .social-links {
             background-color: #0F9095;
         }
 
+/* header links*/
 
-.social .btn:first-child {
-    margin-right: 30px;
+.social a {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .social .btn {
@@ -1278,9 +1292,25 @@ footer .social-links {
     }
 
 .project-btn {
-    background-color: #1abc9c !important;
+    background-color: #17ab8d !important;
+}
+
+.project-btn:hover {
+    background-color: #1bc1a0 !important;
 }
 
 .github-btn {
     background-color: #34495e !important;
+}
+
+.github-btn:hover {
+    background-color: #4c6b8a !important;
+}
+
+.linkedin-btn {
+    background-color: #0072b1 !important;
+}
+
+.linkedin-btn:hover {
+    background-color: #018ad5 !important;
 }
