@@ -489,18 +489,18 @@ ul#nav {
 /* e2. Courses Section
 /* ------------------------------------------------------------------ */
 #courses {
-    background: #378974;
+    background: #183b32;
     padding-top: 36px;
     padding-bottom: 30px;
 }
 
     #courses h1 {
-        font: 15px/24px 'opensans-bold', sans-serif;
+        font: 26px/32px 'opensans-bold', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-align: center;
         margin-bottom: 48px;
-        color: #16362e;
+        color: #E8E8E8;
     }
 
 /* Portfolio Content */
