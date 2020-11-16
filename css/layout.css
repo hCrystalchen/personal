@@ -558,7 +558,7 @@ ul#nav {
 
 .portfolio-item .item-wrap {
     background: #e1e5e4;
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -649,6 +649,31 @@ ul#nav {
     padding-bottom: 3%;
 }
 
+.dialog {
+    background: #eaeded;
+    box-shadow: 0 8px 6px -6px black;
+    position: absolute;
+    width: 110%;
+    left: -5%;
+    z-index: 2;
+    vertical-align: central;
+    top: 50%; /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+.dialog img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#dialog-overlay {
+    background: url(../images/overlay-bg.png) repeat;
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index: 1;
+}
 
 /* on hover */
 .portfolio-item:hover .overlay {
