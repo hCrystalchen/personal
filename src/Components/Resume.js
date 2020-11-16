@@ -8,7 +8,7 @@ class Resume extends Component {
         } else if (type === "frontend") {
             return "#5ca08e";
         } else {
-            return "#b8d5ca";
+            return "#34495e";
         }
     }
 
@@ -22,7 +22,7 @@ class Resume extends Component {
                     <p>{education.description}</p></div>
             })
             var work = this.props.data.work.map(function (work) {
-                return <div key={work.company}><a href={work.website}><h3>{work.company}</h3></a>
+                return <div key={work.company} className="work"><a href={work.website}><h3>{work.company}</h3></a>
                     <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
                     <p>{work.description}</p>
                 </div>

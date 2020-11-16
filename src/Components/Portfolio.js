@@ -1,47 +1,67 @@
 import React, { Component } from 'react';
 
 class Portfolio extends Component {
+    constructor(props) {
+        super(props);
+        this.currImg = null;
+        this.handleShowDialog = this.handleShowDialog.bind(this);
+    }
+    state = { isOpen: false };
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
+    handleShowDialog(img) {
+        this.currImg = img;
+        this.setState({ isOpen: !this.state.isOpen });
+    }
+
     render() {
+        if (this.props.data) {
+            var projects = this.props.data.map(projects => {
+                var projectImage = projects.image ? 'images/' + projects.image : null;
+                return (
+                    <div key={projects.title} className="columns2 portfolio-item item-details">
+                        <div className="item-wrap">
+                            <div className="portfolio-item-meta2">
+                                <h5>{projects.title}</h5>
+                                <p className="portfolio-description">{projects.description}</p>
+                            </div>
+                            {projectImage ? <img alt={projects.title} src={projectImage} onClick={this.handleShowDialog.bind(this, projectImage)} /> : null}
+                            {this.state.isOpen && this.currImg === projectImage && (
+                                <div
+                                    className="dialog"
+                                >
+                                    <img alt={projects.title} src={projectImage} onClick={this.handleShowDialog} />
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                )
+            })
+        }
 
-        //if (this.props.location) {
-        //    var projects = this.props.location.state.projects.map(function (projects) {
-        //        var projectImage = 'personal/images/' + projects.image;
-
-        //        return (
-        //            <div key={projects.title} className="columns portfolio-item">
-        //                <div className="item-wrap">
-        //                    <a href={projects.url} title={projects.title}>
-        //                        <img alt={projects.title} src={projectImage} />
-        //                        <div className="overlay">
-        //                            <div className="portfolio-item-meta">
-        //                                <h5>{projects.title}</h5>
-        //                                <p>{projects.category}</p>
-        //                            </div>
-        //                        </div>
-        //                    </a>
-        //                </div>
-        //            </div>
-        //        )
-        //    })
-        //}
-
-        //return (
-        //    <section id="portfolio">
-
-        //        <div className="row">
-
-        //            <div className="twelve columns collapsed">
-
-        //                <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-        //                    {projects}
-        //                </div>
-        //            </div>
-        //        </div>
-        //    </section>
-        //);
         return (
-            <h1> HELLO </h1>
-            );
+            <div>
+                {this.state.isOpen ? <div id="dialog-overlay" onClick={this.handleShowDialog} /> : null}
+                <nav id="back-wrap">
+                <ul id="back" className="nav">
+                    <li><a href="/personal/#courses">Back</a></li>
+                </ul>
+                </nav>
+                <section id="portfolio">
+                    <h1>{this.props.name}</h1>
+                    <h3>{this.props.info}</h3>
+                    <div className="row row2">
+                        <div>
+                            <div id="portfolio-wrapper" >
+                                {projects}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        );
     }
 }
 

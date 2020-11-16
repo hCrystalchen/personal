@@ -8,6 +8,7 @@ class Header extends Component {
         if (this.props.data) {
             var resume = this.props.data.resumedownload;
             var github = this.props.data.github;
+            var linkedin = this.props.data.linkedin;
             var name = this.props.data.name;
             var description = this.props.data.description;
         }
@@ -26,23 +27,21 @@ class Header extends Component {
                 <div className="row banner">
 
                     <div className="banner-text">
-                        <h1 className="responsive-headline">{name}</h1>
-                        <h3>
-                            <Typical
-                            steps={['Hello!', 500, 'Welcome.', 500, description, 500]}
-                            loop={1}
-                            wrapper="p"/>
-                        </h3>
+                        <h1 className="responsive-headline">
+                            <Typical steps={['Hello!', 500, 'This is', 500, name , 500]} loop={1} wrapper="p"/>
+                        </h1>
+                        <h3>{description}</h3>
                         <hr />
                         <ul className="social">
-                            <a href={resume} className="button btn project-btn">Resume</a>
                             <a href={github} className="button btn github-btn">Github</a>
+                            <a href={linkedin} className="button btn linkedin-btn">LinkedIn</a>
+                            <a href={resume} className="button btn project-btn">Resume</a>
                         </ul>
                     </div>
                 </div>
 
                 <p className="scrolldown">
-                    <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
+                    <a className="smoothscroll" href="#resume"><i className="icon-down-open"></i></a>
                 </p>
 
             </header>

@@ -131,7 +131,7 @@ header {
 
 /* primary navigation
 --------------------------------------------------------------------- */
-#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+#nav-wrap ul, #nav-wrap li, #nav-wrap a, #back-wrap ul, #back-wrap li, #back-wrap a {
     margin: 0;
     padding: 0;
     border: none;
@@ -139,7 +139,7 @@ header {
 }
 
 /* nav-wrap */
-#nav-wrap {
+#nav-wrap, #back-wrap {
     font: 12px 'opensans-bold', sans-serif;
     width: 100%;
     text-transform: uppercase;
@@ -160,6 +160,21 @@ header {
     display: none;
 }
 
+ul#back {
+    min-height: 48px;
+    width: 100px;
+    text-align: center;
+    background-color: #333;
+    margin-top:20px;
+    border-top-right-radius:45px;
+    border-bottom-right-radius:45px;
+}
+
+ul#back a:hover {
+    color: #fe6928;
+    cursor: pointer;
+}
+
 ul#nav {
     min-height: 48px;
     width: auto;
@@ -167,7 +182,7 @@ ul#nav {
     text-align: center;
 }
 
-    ul#nav li {
+    ul#nav li, ul#back li {
         position: relative;
         list-style: none;
         height: 48px;
@@ -175,7 +190,7 @@ ul#nav {
     }
 
         /* Links */
-        ul#nav li a {
+        ul#nav li a, ul#back li a {
             /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
             display: inline-block;
             padding: 8px 13px;
@@ -270,7 +285,7 @@ ul#nav {
 /* ------------------------------------------------------------------ */
 
 #resume {
-    background: #fff;
+    background: #eaeded;
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
@@ -291,7 +306,7 @@ ul#nav {
     }
 
         #resume h1 span {
-            border-bottom: 3px solid #0762f9;
+            border-bottom: 3px solid #5ca08e;
             padding-bottom: 6px;
         }
 
@@ -308,9 +323,12 @@ ul#nav {
     }
 
 .education, .work {
-    margin-bottom: 48px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dddede;
+}
+
+.work div:last-child {
+    border-bottom: 0px;
 }
 
 #resume .info {
@@ -328,6 +346,14 @@ ul#nav {
 #resume .date {
     font: 15px/24px 'opensans-regular', sans-serif;
     margin-top: 6px;
+}
+
+.work a h3:hover {
+    color: #5ca08e;
+}
+
+.work a h3 {
+    color: #006a6e;
 }
 
 /*----------------------------------------------*/
@@ -466,13 +492,13 @@ ul#nav {
 /* e2. Courses Section
 /* ------------------------------------------------------------------ */
 #courses {
-    background: #6E7881;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    background: #183b32;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
     #courses h1 {
-        font: 15px/24px 'opensans-semibold', sans-serif;
+        font: 22px/30px 'opensans-semibold', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-align: center;
@@ -482,7 +508,7 @@ ul#nav {
 
 /* Portfolio Content */
 #courses-wrapper .columns {
-    margin-bottom: 36px;
+    margin-bottom: 60px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -490,28 +516,49 @@ ul#nav {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #ebeeee;
+    background: #eaeded;
     padding-top: 90px;
     padding-bottom: 60px;
 }
 
     #portfolio h1 {
-        font: 15px/24px 'opensans-semibold', sans-serif;
+        font: 30px/36px 'opensans-semibold', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-align: center;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: #006a6e;
+    }
+
+    #portfolio h3 {
+        font: 18px/24px 'opensans-italic', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
         margin-bottom: 48px;
-        color: #95A3A3;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #99b7ac;
     }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns {
-    margin-bottom: 36px;
+    margin-bottom: 50px;
+}
+
+#portfolio-wrapper image {
+    height: 50%;
+}
+
+#portfolio .portfolio-item .item-wrap {
+    padding: 40px 30px 50px 30px;
+    padding-bottom: 50px;
 }
 
 .portfolio-item .item-wrap {
-    background: #fff;
-    overflow: hidden;
+    background: #e1e5e4;
+    /*overflow: hidden;*/
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -582,6 +629,51 @@ ul#nav {
         color: #c6c7c7;
         margin-bottom: 0;
     }
+
+
+.portfolio-item-meta2 h5 {
+    font: 30px/36px 'opensans-bold', sans-serif;
+    color: #51887a;
+    margin-top: 10px;
+    margin-bottom: 2%;
+}
+
+/*portfolio separater*/
+.item-details {
+    margin-bottom: 12px;
+    padding-bottom: 10%;
+}
+
+.portfolio-description {
+    font: 16px/20px;
+    padding-bottom: 3%;
+}
+
+.dialog {
+    background: #eaeded;
+    box-shadow: 0 8px 6px -6px black;
+    position: absolute;
+    width: 110%;
+    left: -5%;
+    z-index: 2;
+    vertical-align: central;
+    top: 50%; /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+.dialog img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#dialog-overlay {
+    background: url(../images/overlay-bg.png) repeat;
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index: 1;
+}
 
 /* on hover */
 .portfolio-item:hover .overlay {
@@ -655,10 +747,8 @@ ul#nav {
         margin-left: 24px;
     }
 
-
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
-
 /* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
     opacity: 0;
@@ -1216,9 +1306,13 @@ footer .social-links {
             background-color: #0F9095;
         }
 
+/* header links*/
 
-.social .btn:first-child {
-    margin-right: 30px;
+.social a {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 135px;
 }
 
 .social .btn {
@@ -1231,9 +1325,25 @@ footer .social-links {
     }
 
 .project-btn {
-    background-color: #1abc9c !important;
+    background-color: #17ab8d !important;
+}
+
+.project-btn:hover {
+    background-color: #1bc1a0 !important;
 }
 
 .github-btn {
     background-color: #34495e !important;
+}
+
+.github-btn:hover {
+    background-color: #4c6b8a !important;
+}
+
+.linkedin-btn {
+    background-color: #0072b1 !important;
+}
+
+.linkedin-btn:hover {
+    background-color: #018ad5 !important;
 }

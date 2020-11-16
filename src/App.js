@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Resume from './Components/Resume';
 import Courses from './Components/Courses';
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 import Portfolio from './Components/Portfolio';
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
 
     getResumeData() {
         $.ajax({
-            url: 'personal/resumeData.json',
+            url: '../personal/resumeData.json',
             dataType: 'json',
             cache: false,
             success: function (data) {
@@ -37,6 +37,14 @@ class App extends Component {
     }
 
     render() {
+        if (this.state.resumeData.courses) {
+            var routes = this.state.resumeData.courses.projects.map(function (projects) {
+                var name = '/personal/' + projects.title.slice(0,6);
+                return (
+                    <Route key={name} path={name} component={props => <Portfolio data={projects.work} name={projects.title} info={projects.category}/>}/>
+                )
+            })
+        }
         return (
             <Router>
                 <div className="App">
@@ -46,7 +54,7 @@ class App extends Component {
                         <Courses data={this.state.resumeData.courses}/>
                         <Footer data={this.state.resumeData.main} />
                     </Route>
-                    <Route path="/personal/hi" component={Portfolio} />
+                    {routes}
                 </div>
             </Router>
         );

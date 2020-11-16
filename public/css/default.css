@@ -743,8 +743,14 @@ input[type="checkbox"] {
 
 /* default
 --------------------------------------------------------------- */
-.row {
+.row1, .row2 {
     width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.row2 {
+    width: 60%;
     max-width: 1020px;
     margin: 0 auto;
 }
@@ -781,7 +787,12 @@ input[type="checkbox"] {
     float: left;
 }
 
-    .column.centered, .columns.centered {
+.columns2 {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+}
+    .column.centered, .columns.centered, .columns2.centered {
         float: none;
         margin: 0 auto;
     }
@@ -793,7 +804,7 @@ input[type="checkbox"] {
         padding: 0;
     }
 
-[class*="column"] + [class*="column"]:last-child {
+/[class*="column"] + [class*="column"]:last-child {
     float: right;
 }
 
