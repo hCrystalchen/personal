@@ -323,9 +323,12 @@ ul#nav {
     }
 
 .education, .work {
-    margin-bottom: 48px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dddede;
+}
+
+.work div:last-child {
+    border-bottom: 0px;
 }
 
 #resume .info {
@@ -490,12 +493,12 @@ ul#nav {
 /* ------------------------------------------------------------------ */
 #courses {
     background: #183b32;
-    padding-top: 36px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
     #courses h1 {
-        font: 26px/32px 'opensans-bold', sans-serif;
+        font: 22px/30px 'opensans-semibold', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-align: center;
@@ -505,7 +508,7 @@ ul#nav {
 
 /* Portfolio Content */
 #courses-wrapper .columns {
-    margin-bottom: 36px;
+    margin-bottom: 60px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -548,6 +551,10 @@ ul#nav {
     height: 50%;
 }
 
+#portfolio .portfolio-item .item-wrap {
+    padding: 40px 30px 50px 30px;
+    padding-bottom: 50px;
+}
 
 .portfolio-item .item-wrap {
     background: #e1e5e4;
@@ -558,11 +565,6 @@ ul#nav {
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
-
-#portfolio .portfolio-item .item-wrap {
-    padding: 40px 30px 50px 30px;
-    padding-bottom: 50px;
 }
 
     .portfolio-item .item-wrap a {
@@ -646,6 +648,7 @@ ul#nav {
     font: 16px/20px;
     padding-bottom: 3%;
 }
+
 
 /* on hover */
 .portfolio-item:hover .overlay {

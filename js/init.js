@@ -87,7 +87,7 @@ jQuery(document).ready(function ($) {
             nav.fadeOut('fast');
         }
         else {
-            if (y < h * .20) {
+            if (y <= h * .20) {
                 nav.removeClass('opaque').fadeIn('fast');
             }
             else {
